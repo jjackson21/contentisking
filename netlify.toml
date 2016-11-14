@@ -6,4 +6,6 @@
   incoming-hooks = ["Contentful"]
 
 [template.environment]
-  CONTENTFUL_TOKEN = "change me"
+  CONTENTFUL_CDA_TOKEN = "change me"
+  CONTENTFUL_CMA_TOKEN = "change me"
+  CONTENTFUL_SPACE = "change me"
