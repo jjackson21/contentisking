@@ -1,0 +1,7 @@
+<html lang="en">
+<body>
+Deploy to Netlify template test:
+
+CONTENTFUL_TOKEN = %CONTENTFUL_TOKEN%
+</body>
+</html>

@@ -1,0 +1,9 @@
+[build]
+  command = "./build.sh"
+  publish = "dist"
+
+[template]
+  incoming-hooks = ["Contentful"]
+
+[template.environment]
+  CONTENTFUL_TOKEN = "change me"
