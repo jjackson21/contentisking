@@ -8,6 +8,12 @@ title: Welcome to Middleman
   </div>
   <h1>Middleman</h1>
   <p class="doc">
-    <%= data.space.post.inspect %>
+    <ul>
+    <% data.space.post.each do |id, post| %>
+      <li>
+        <%= post['title'] %> (<%= id %>)
+      </li>
+    <% end %>
+    </ul>
   </p><!-- .doc -->
 </div><!-- .welcome -->

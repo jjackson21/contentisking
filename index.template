@@ -1,9 +1,0 @@
-<html lang="en">
-<body>
-Deploy to Netlify template test:
-
-CONTENTFUL_CDA_TOKEN = %CONTENTFUL_CDA_TOKEN%
-CONTENTFUL_CMA_TOKEN = %CONTENTFUL_CMA_TOKEN%
-CONTENTFUL_SPACE = %CONTENTFUL_SPACE%
-</body>
-</html>
