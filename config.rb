@@ -42,7 +42,7 @@ end
 
 activate :contentful do |f|
   f.space         = {space: ENV['5ii8ejp5xdya']}
-  f.access_token  = ENV['CONTENTFUL_CDA_TOKEN']
+  f.access_token  = ENV['72410257d7355ffccb33519a3851e5cdaea7719b2095f70a65c2c36515dc0653']
   f.cda_query     = {}
   f.content_types = {post: 'post'}
 end
