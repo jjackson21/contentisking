@@ -41,7 +41,7 @@ configure :build do
 end
 
 activate :contentful do |f|
-  f.space         = {space: ENV['CONTENTFUL_SPACE']}
+  f.space         = {space: ENV['5ii8ejp5xdya']}
   f.access_token  = ENV['CONTENTFUL_CDA_TOKEN']
   f.cda_query     = {}
   f.content_types = {post: 'post'}
